@@ -208,7 +208,8 @@ img {
 
 .features-main-title,
 .job-title,
-.team-main-title {
+.team-main-title,
+.clients-title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
