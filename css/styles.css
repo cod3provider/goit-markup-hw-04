@@ -13,7 +13,7 @@
     --footer-logo-color: #ffffff;
     --button-text-color: #212121;
     --filter-button-text-color: #212121;
-    --filter-button-bg-color:#F5F4FA;
+    --filter-button-bg-color: #F5F4FA;
     --bg-secondary-section-color: #F5F4FA;
     --bg-team-card: #ffffff;
     --portfolio-border-color: #EEEEEE;
@@ -111,7 +111,8 @@ img {
     align-items: center;
 }
 
-.header-logo, .footer-logo {
+.header-logo,
+.footer-logo {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -271,6 +272,14 @@ img {
 
 .team-item {
     background-color: var(--bg-team-card);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-item:hover,
+.team-item:focus {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-card {
@@ -373,6 +382,13 @@ img {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc(100% / 3 - 30px);
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .filter-buttons .potfolio-btn:hover,
