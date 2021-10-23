@@ -101,15 +101,27 @@ img {
     margin-right: 50px;
 }
 
-.contacts-item:not(:first-child) {
-    margin-left: 50px;
-}
-
 .contacts-list {
     display: flex;
     margin-left: auto;
     align-items: center;
 }
+
+.contacts-item:not(:first-child) {
+    margin-left: 50px;
+}
+
+
+
+/* .contacts-item::before {
+    content: '';
+} */
+
+.contacts-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
 
 .header-logo,
 .footer-logo {
@@ -159,6 +171,8 @@ img {
 
 .header-link {
     color: var(--text-color);
+    display: flex;
+    align-items: center;
 }
 
 /* -----------------hero----------------- */
@@ -168,6 +182,12 @@ img {
     padding-bottom: 200px;
     background-color: var(--bg-color);
     text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
+    max-width: 1600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -225,6 +245,19 @@ img {
 
 .features-item:not(:last-child) {
     margin-right: 30px;
+}
+
+.footer-item::before {
+    background-color: #F5F4FA;
+    background-image: url('../images/sprite');
+}
+
+.feature-block {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    padding: 25px 100px;
+    margin-bottom: 30px;
 }
 
 .feature-title {
@@ -304,6 +337,35 @@ img {
 
 .team-text {
     margin-top: 10px;
+}
+
+.team-social-list {
+    width: 206px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 16px;
+    justify-content: space-between;
+}
+
+.team-social-item {
+    width: 44px;
+    height: 44px;
+    /* margin-right: 10px; */
+    display: flex;
+    justify-content: center;
+}
+
+.team-social-link {
+    padding: 12px;
+    display: block;
+}
+
+.team-social-icon {
+    fill: #AFB1B8;
+}
+
+.team-social-link:hover {
+    color: var(--accent-color);
 }
 
 /* --------------------Footer----------------------- */
