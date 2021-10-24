@@ -391,9 +391,11 @@ img {
 }
 
 .clients-item {
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    padding: 16px 32px;
 }
 
 .clients-item:not(:last-child) {
@@ -405,9 +407,9 @@ img {
     fill: #2196F3;
 }
 
-/* .clients-item:hover {
-    fill: #2196F3;
-} */
+.clients-item:hover {
+    border-color: #2196F3;
+}
 
 /* --------------------Footer----------------------- */
 
@@ -446,6 +448,55 @@ img {
     color: #ffffff;
 }
 
+.footer-social-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* .address-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+} */
+
+.footer-social {
+    margin-left: 70px;
+    width: 206px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-social-text {
+    text-align: center;
+}
+
+.footer-social-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+
+.footer-social-icon {
+    fill: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+}
 
 /* -------------------Портфолио------------------- */
 
