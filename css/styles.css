@@ -226,10 +226,7 @@ img {
 
 /* -----------------Наши преимущества----------------- */
 
-.features-main-title,
-.job-title,
-.team-main-title,
-.clients-title {
+.section-title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
